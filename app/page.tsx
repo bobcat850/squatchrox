@@ -14,38 +14,41 @@ const Home: NextPage = () => {
           src="/hero-asset.png"
           width={860}
           height={540}
-          alt="Hero asset, NFT marketplace"
+          alt="Hero asset, Squatch Rox"
           quality={100}
-          className="max-w-screen mb-4"
+          className="mb-4 max-w-screen"
         />
       </div>
       <div className="px-8 mx-auto text-center">
-        <h1 className="mb-5 text-white font-bold text-6xl">
+        <h1 className="mb-5 text-6xl font-bold text-white">
           <span className="text-transparent bg-clip-text gradient">
-						Build NFT Marketplaces
+						Welcome to Squatch Rox Mining Club
           </span>
           <br />
-					faster than ever.
+					Home of the Squatch Family of Conecuh County, Alabama
         </h1>
-        <p className="text-white/60 text-lg max-w-xl mx-auto">
+        <p className="max-w-xl mx-auto text-lg text-white/60">
           <Link
             className="hover:underline"
-            href="https://thirdweb.com"
+            href="https://x.com/squatchroxmine"
             target="_blank"
           >
-						thirdweb
+						Squatch Rox Mining Club on X
           </Link>{" "}
-					gives you the tools you need to create audited, performant,
-					and flexible NFT marketplaces in <b>hours</b>,{" "}
-          <i>not months</i>.
+				</p>
+        <p>
+          Check out our <b>Rox</b> and <b>Jewelry</b> in the Squatch Market 
+        </p>
+        <p>
+          Get your Mining Pass below and become a memeber of the Squatch Family!
         </p>
 
-        <div className="flex justify-center text-lg font-medium items-center mt-12 gap-4">
+        <div className="flex items-center justify-center gap-4 mt-12 text-lg font-medium">
           <Link
-            className="w-56 p-3 rounded-lg transition-all hover:shadow-lg gradient border-white/10 border"
+            className="w-56 p-3 transition-all border rounded-lg hover:shadow-lg gradient border-white/10"
             href="https://portal.thirdweb.com/"
           >
-						Get Started
+					 Mining Pass
           </Link>
           <Link
             className="w-56 p-3 rounded-lg bg-white/[.04] transition-all hover:bg-white/[.06] border-white/10 border"
@@ -61,3 +64,4 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
