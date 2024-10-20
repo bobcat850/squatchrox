@@ -9,7 +9,7 @@ export const NETWORK = sepolia;
 
 // 2. The address of the marketplace V3 smart contract.
 // Deploy your own: https://thirdweb.com/thirdweb.eth/MarketplaceV3
-const MARKETPLACE_ADDRESS = "0x38ab4489E479c9266471bbe8C3794CB30EA11F20";
+const MARKETPLACE_ADDRESS = "0xB2D5D4Bf7D722606bC8dF187E8b6E9ae7591c0f5";
 export const MARKETPLACE = getContract({
 	address: MARKETPLACE_ADDRESS,
 	client,
@@ -17,7 +17,7 @@ export const MARKETPLACE = getContract({
 });
 
 // 3. The address of your NFT collection smart contract.
-const NFT_COLLECTION_ADDRESS = "0x72a6eb347D86Bb5DE9c3c6a3DFAb6f2eff80F3C9";
+const NFT_COLLECTION_ADDRESS = "0x4862F372C9B8c02926a9b2a351d2CE71e37C95E4";
 export const NFT_COLLECTION = getContract({
 	address: NFT_COLLECTION_ADDRESS,
 	client,
