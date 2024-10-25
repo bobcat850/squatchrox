@@ -46,7 +46,7 @@ const Home: NextPage = () => {
         <div className="flex items-center justify-center gap-4 mt-12 text-lg font-medium">
           <Link
             className="w-56 p-3 transition-all border rounded-lg hover:shadow-lg gradient border-white/10"
-            href="https://mint-3cdzeicoe-bobcats-projects-03ba5c28.vercel.app/"
+            href="https://mint-chi-beige.vercel.app/"
           >
 					Honey Island Swamp Pass
           </Link>
