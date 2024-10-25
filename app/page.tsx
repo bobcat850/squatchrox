@@ -46,16 +46,16 @@ const Home: NextPage = () => {
         <div className="flex items-center justify-center gap-4 mt-12 text-lg font-medium">
           <Link
             className="w-56 p-3 transition-all border rounded-lg hover:shadow-lg gradient border-white/10"
-            href="https://portal.thirdweb.com/"
+            href="https://mint-3cdzeicoe-bobcats-projects-03ba5c28.vercel.app/"
           >
-					 Mining Pass
+					Honey Island Swamp Pass
           </Link>
           <Link
             className="w-56 p-3 rounded-lg bg-white/[.04] transition-all hover:bg-white/[.06] border-white/10 border"
             href="https://github.com/thirdweb-example/marketplace-v3"
             target="_blank"
           >
-						GitHub
+						Squatch Rox 
           </Link>
         </div>
       </div>
