@@ -27,8 +27,7 @@ const Home: NextPage = () => {
           <br />
 					Home of the Squatch Family of Conecuh County, Alabama
         </h1>
-        <div><iframe width="360" height="639" src="https://www.youtube.com/embed/A2p43Ul8PbU" title="October 18, 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+        <iframe width="360" height="639" src="https://www.youtube.com/embed/A2p43Ul8PbU" title="October 18, 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p className="max-w-xl mx-auto text-lg text-white/60">
           <Link
             className="hover:underline"
