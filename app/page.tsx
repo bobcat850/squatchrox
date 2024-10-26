@@ -24,7 +24,6 @@ const Home: NextPage = () => {
           <span className="text-transparent bg-clip-text gradient">
 						Welcome to Squatch Rox Mining Club
           </span>
-          <br />
 					</h1>
         <p className="max-w-xl mx-auto text-lg text-white/60">
           <Link
