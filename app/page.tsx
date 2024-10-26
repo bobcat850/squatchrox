@@ -25,8 +25,7 @@ const Home: NextPage = () => {
 						Welcome to Squatch Rox Mining Club
           </span>
           <br />
-					Home of the Squatch Family of Conecuh County, Alabama
-        </h1>
+					</h1>
         <p className="max-w-xl mx-auto text-lg text-white/60">
           <Link
             className="hover:underline"
